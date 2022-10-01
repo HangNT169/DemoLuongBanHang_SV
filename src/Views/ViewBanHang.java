@@ -53,13 +53,13 @@ public class ViewBanHang extends javax.swing.JFrame {
 
         tbHoaDon.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Ngày Tạo", "Tình trạng"
             }
         ));
         jScrollPane2.setViewportView(tbHoaDon);
@@ -74,7 +74,7 @@ public class ViewBanHang extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Tên SP", "Số lượng", "Đơn giá", "Thành tiền"
             }
         ));
         jScrollPane1.setViewportView(tbHoaDonChiTiet);
@@ -100,13 +100,13 @@ public class ViewBanHang extends javax.swing.JFrame {
 
         tbSanPham.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Tên SP", "Số lượng", "Giá nhập", "Giá bán", "Miêu tả"
             }
         ));
         jScrollPane3.setViewportView(tbSanPham);
