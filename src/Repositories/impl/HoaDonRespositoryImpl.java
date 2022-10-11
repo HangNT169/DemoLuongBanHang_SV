@@ -8,6 +8,6 @@ package Repositories.impl;
  *
  * @author hangnt
  */
-public class HoaDonResponsitoryImpl {
+public class HoaDonRespositoryImpl {
     
 }

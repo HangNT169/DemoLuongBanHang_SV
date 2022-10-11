@@ -8,6 +8,6 @@ package Repositories;
  *
  * @author hangnt
  */
-public interface HoaDonReponsitory {
+public interface HoaDonRepository {
     
 }
